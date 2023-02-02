@@ -29,8 +29,8 @@ function Score() {
         <div>
         <header>
             <h1>🥚<span>{count}</span></h1>
-            <h1>Memory Bald Game</h1>
-            <h1>🏆<span>{best}</span></h1>
+            <h1>Don't pick the same guy twice!</h1>
+            <h1><span>{best}</span>🏆</h1>
         </header>
             <div className='Grid'>
           {randomEggs().map((Egg) => <Card key={Egg.id} Egg={Egg} handleClick={handleClick}/>)}
